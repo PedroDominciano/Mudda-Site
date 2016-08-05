@@ -1,0 +1,74 @@
+body{
+	background-repeat: no-repeat;
+	background-color: #00BFFF;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-radius: 1em;
+	font-family: sans-serif;
+}
+
+h1{
+	width: 100%;
+	text-align: center;
+}
+form{
+	margin: auto;
+	width: 90%;
+	padding: 10px;
+	border-radius: 1em;
+}
+#div-form{
+	height: 100%;
+	border-radius: 1em;
+	background-image: url("../images/corporation.jpg");
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.divTextArea{
+	width: 60%;
+	margin-right: 30%;
+}
+
+.divInput, .divTextArea{
+	margin-top: 2px;
+	margin-left: 20%;
+}
+
+.divInput{
+	width: 33%;
+	text-align: center;
+}
+
+input{
+	width: 100%;
+}
+
+input, textarea{
+	font-size: 1em;
+	border: 1px solid #999;
+}
+
+input:focus, textarea:focus{
+	border-color: #000;
+}
+
+textarea{
+	height: 80px;
+	width: 100%;
+}
+
+#p-chars{
+	margin-top: 2px;
+}
+
+#bt-enviar{
+	position: absolute;
+	right: 34%;
+	width: 52px;
+	margin-top: 2px;
+	border-radius: 1em;
+}
+button{
+	
+}
